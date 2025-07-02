@@ -22,14 +22,14 @@
   </p>
 </p>
   
-![teaser_img](images/teaser.png)
+![teaser_img](image/teaser.png)
 
 ## :camera: Video Demo 
-![video demo of Chat-MedGen](images/chatmedgen-demo.gif)
+![video demo of Chat-MedGen](image/chatmedgen-demo.gif)
 
 ## :v: More Examples
-![teaser_img](images/example1.pdf)
-![teaser_img](images/example2.pdf)
+![teaser_img](image/example1.png)
+![teaser_img](image/example2.png)
 
 
 ## :clap: Acknowledgements
