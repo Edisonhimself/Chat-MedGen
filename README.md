@@ -28,8 +28,8 @@
 ![video demo of Chat-MedGen](images/chatmedgen-demo.gif)
 
 ## :v: More Examples
-![teaser_img](images/example1.png)
-![teaser_img](images/example2.png)
+![teaser_img](images/example1.pdf)
+![teaser_img](images/example2.pdf)
 
 
 ## :clap: Acknowledgements
