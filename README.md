@@ -34,5 +34,3 @@
 
 ## :clap: Acknowledgements
 This project is developed on the codebase of [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4). We appreciate its valuable contributions! 
-
-```
