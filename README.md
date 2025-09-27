@@ -27,6 +27,51 @@
 ## :camera: Video Demo 
 ![video demo of Chat-MedGen](image/chatmedgen-demo.gif)
 
+
+## Getting Started
+### Installation
+
+**1. Prepare the code and the environment**
+
+Git clone our repository, creating a python environment and activate it via the following command
+
+```bash
+git clone https://github.com/Edisonhimself/Chat-MedGen.git
+cd Chat-MedGen
+conda env create -f environment.yml
+conda activate chatmedgen
+```
+
+**2. Prepare the pretrained LLM weights**
+
+**Chat-MedGen** is based on Llama2-7B. Please first download the LLM weights from the following huggingface space:
+[Download](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main).
+
+Then, set the variable *llama_model* in the model config file to the LLM weight path. Specifically, please set the LLM path 
+[here](chatmedgen/configs/models/chatmedgen.yaml#L15) at Line 14.
+
+
+**3. Prepare our Chat-MedGen pretrained model checkpoints**
+Download the pretrained model checkpoints at [Download](https://huggingface.co/Carryyy/Chat-MedGen/tree/main).
+
+Then, set the variable *ckpt* in the eval config file to the pretrained Chat-MedGen weight path. Specifically, please set the ckpt path 
+[here](eval_configs/chat_medgen_eval.yaml#L12) at Line 11.
+
+
+### Launching Chat-MedGen Locally and get a quick start
+Please set your image and your query in [here](chat_medgen_eval.py) and run:
+```
+torchrun chat_medgen_eval.py --cfg-path eval_configs/chat_medgen_eval.yaml --gpu-id 0
+```
+
+We provide two examples in the *examples* folder to help you get started quickly.
+
+
+## Evaluate Chat-MedGen on MedVision-MT or your own test data
+
+
+
+
 ## :v: More Examples
 ![teaser_img](image/example1.png)
 ![teaser_img](image/example2.png)
