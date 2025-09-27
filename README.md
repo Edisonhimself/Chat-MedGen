@@ -24,6 +24,13 @@
   
 ![teaser_img](image/teaser.png)
 
+## :mega: News
+- **2025.9.27**: We released the inference codes. Feel free to chat with ***Chat-MedGen*** on your own data!
+- **2025.9.26**: We released the pretrained weights of ***Chat-MedGen***. You can find it in the Hugging Face.
+- **2025.7.25**: We created the ***Chat-MedGen*** project and upload the demo video of Chat-MedGen.
+
+
+
 ## :camera: Video Demo 
 ![video demo of Chat-MedGen](image/chatmedgen-demo.gif)
 
