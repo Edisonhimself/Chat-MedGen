@@ -1,0 +1,32 @@
+model:
+  arch: chatmedgen
+  model_type: pretrain
+  max_txt_len: 500
+  end_sym: "</s>"
+  low_resource: False
+  prompt_template: '[INST] {} [/INST]'
+  llama_model: "path of llama_model ckpt"
+
+
+  ckpt: "path of chatmedgen ckpt"  
+
+
+
+  lora_r: 64
+  lora_alpha: 16
+
+
+
+
+
+
+run:
+  task: image_text_pretrain
+  name: chatmedgen_evaluation
+  save_path: output/chatmedgen_evaluation
+
+
+  
+
+  
+

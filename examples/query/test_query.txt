@@ -1,0 +1,2 @@
+"[vqa] Based on the medical image, respond to this question with a short answer: Which part of the body does this image belong to?"
+
