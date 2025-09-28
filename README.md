@@ -23,6 +23,7 @@
     <div align="center">
     <a href='https://huggingface.co/Carryyy/Chat-MedGen'><img src='https://img.shields.io/badge/HuggingFace-ChatMedGen-yellow?color=yellow'></a>
     <a href='https://huggingface.co/datasets/Carryyy/MedVision-MT'><img src='https://img.shields.io/badge/HuggingFace-MedVisionMT-yellow?color=yellow'></a>
+    </div>
   </p>
 </p>
   
