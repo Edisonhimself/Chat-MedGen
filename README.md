@@ -19,6 +19,10 @@
     <!-- <br> -->
     <br>
     <sup>1</sup>Zhejiang University, <sup>2</sup>Zhejiang Sci-Tech University, <sup>*</sup>Corresponding author
+    <br>
+    <div align="center">
+    <a href='https://huggingface.co/Carryyy/Chat-MedGen'><img src='https://img.shields.io/badge/HuggingFace-ChatMedGen-yellow?color=yellow'></a>
+    <a href='https://huggingface.co/datasets/Carryyy/MedVision-MT'><img src='https://img.shields.io/badge/HuggingFace-MedVisionMT-yellow?color=yellow'></a>
   </p>
 </p>
   
@@ -59,6 +63,7 @@ Then, set the variable *llama_model* in the model config file to the LLM weight 
 
 
 **3. Prepare our Chat-MedGen pretrained model checkpoints**
+
 Download the pretrained model checkpoints at [Download](https://huggingface.co/Carryyy/Chat-MedGen/tree/main).
 
 Then, set the variable *ckpt* in the eval config file to the pretrained Chat-MedGen weight path. Specifically, please set the ckpt path 
