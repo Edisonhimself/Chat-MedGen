@@ -44,6 +44,10 @@
 ![video demo of Chat-MedGen](image/chatmedgen-demo.gif)
 
 
+## MedVision-MT Benchmark
+We release our **MedVision-MT** benchmark [here](https://huggingface.co/datasets/Carryyy/MedVision-MT) to provide a standard evaluation and inspire further research in medical MLLMs.
+
+
 ## Getting Started
 ### Installation
 
