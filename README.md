@@ -21,8 +21,8 @@
     <sup>1</sup>Zhejiang University, <sup>2</sup>Zhejiang Sci-Tech University, <sup>*</sup>Corresponding author
     <br>
     <div align="center">
-    <a href='https://huggingface.co/Carryyy/Chat-MedGen'><img src='https://img.shields.io/badge/HuggingFace-ChatMedGen-yellow?color=yellow'></a>
-    <a href='https://huggingface.co/datasets/Carryyy/MedVision-MT'><img src='https://img.shields.io/badge/HuggingFace-MedVisionMT-yellow?color=yellow'></a>
+    <a href='https://huggingface.co/Carryyy/Chat-MedGen'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-ChatMedGen-yellow'></a>
+    <a href='https://huggingface.co/datasets/Carryyy/MedVision-MT'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-MedVisionMT-yellow?color=yellow'></a>
     </div>
   </p>
 </p>
