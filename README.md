@@ -34,7 +34,11 @@
 - **2025.9.26**: We released the pretrained weights of ***Chat-MedGen***. You can find it in the Hugging Face.
 - **2025.7.25**: We created the ***Chat-MedGen*** project and upload the demo video of Chat-MedGen.
 
-
+## :memo: ToDo List
+- [ ] Release training codes.
+- [x] Release inference codes and ***Chat-MedGen*** model pre-trained weights. 
+- [x] Release ***MedVision-MT*** benchmark.
+- [x] Release more visual results and video demo.
 
 ## :camera: Video Demo 
 ![video demo of Chat-MedGen](image/chatmedgen-demo.gif)
