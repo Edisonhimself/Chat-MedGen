@@ -84,7 +84,12 @@ torchrun chat_medgen_eval.py --cfg-path eval_configs/chat_medgen_eval.yaml --gpu
 We provide two examples in the *examples* folder to help you get started quickly.
 
 
-## Evaluate Chat-MedGen on MedVision-MT or your own test data
+## Evaluate Chat-MedGen on MedVision-MT
+
+You can download the **MedVision-MT** dataset from [here](https://huggingface.co/datasets/Carryyy/MedVision-MT).
+
+**Notice:** The downloaded MedVision-MT dataset only contains image metadata and corresponding annotations. To obtain the actual image files, please download them from the respective sub-datasets. We will provide a consolidated list of all sub-dataset download links in the near future to facilitate easier access.
+
 
 
 
