@@ -78,7 +78,7 @@ Then, set the variable *llama_model* in the model config file to the LLM weight 
 Download the pretrained model checkpoints at [Download](https://huggingface.co/Carryyy/Chat-MedGen/tree/main).
 
 Then, set the variable *ckpt* in the eval config file to the pretrained Chat-MedGen weight path. Specifically, please set the ckpt path 
-[here](eval_configs/chat_medgen_eval.yaml#L11) at Line 11.
+[here](eval_configs/chat_medgen_eval.yaml#L10) at Line 11.
 
 
 ### Launching Chat-MedGen Locally and get a quick start
