@@ -98,7 +98,20 @@ You can first download the **MedVision-MT** dataset from [here](https://huggingf
 
 Then, you can modify the *TestEvalData* class in the *eval_demo.py* file to point to the dataset you want to test. This will allow you to run the evaluation on your chosen dataset.
 
-
+The structure of MedVision-MT is shown below:
+```
+MedVision-MT/
+├── chestxray/
+│   ├── train.json
+│   └── test.json
+├── iu_xray/
+│   ├── train.json
+│   └── test.json
+├── slake/
+│   ├── train.json
+│   └── test.json
+├── ...  # Other folders (folder4, folder5, ..., folder12)
+```
 
 
 ## :v: More Examples
