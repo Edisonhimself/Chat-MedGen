@@ -47,7 +47,7 @@
 
 ## MedVision-MT Benchmark
 We release our **MedVision-MT** benchmark [here](https://huggingface.co/datasets/Carryyy/MedVision-MT) to provide a standard evaluation and inspire further research in medical MLLMs.
-
+![teaser_img](image/dataset.png)
 
 ## Getting Started
 ### Installation
