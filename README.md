@@ -70,7 +70,7 @@ conda activate chatmedgen
 [Download](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main).
 
 Then, set the variable *llama_model* in the model config file to the LLM weight path. Specifically, please set the LLM path 
-[here](chatmedgen/configs/models/chatmedgen.yaml#L15) at Line 14.
+[here](chatmedgen/configs/models/chatmedgen.yaml#L14) at Line 14.
 
 
 **3. Prepare our Chat-MedGen pretrained model checkpoints**
@@ -78,11 +78,11 @@ Then, set the variable *llama_model* in the model config file to the LLM weight 
 Download the pretrained model checkpoints at [Download](https://huggingface.co/Carryyy/Chat-MedGen/tree/main).
 
 Then, set the variable *ckpt* in the eval config file to the pretrained Chat-MedGen weight path. Specifically, please set the ckpt path 
-[here](eval_configs/chat_medgen_eval.yaml#L12) at Line 11.
+[here](eval_configs/chat_medgen_eval.yaml#L11) at Line 11.
 
 
 ### Launching Chat-MedGen Locally and get a quick start
-Please set your image and your query in [here](chat_medgen_eval.py) and run:
+Please set your image and your query in [here](chat_medgen_eval.py#L51) and run:
 ```
 torchrun chat_medgen_eval.py --cfg-path eval_configs/chat_medgen_eval.yaml --gpu-id 0
 ```
