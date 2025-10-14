@@ -37,7 +37,7 @@
 
 ## :memo: ToDo List
 - [ ] Release training codes.
-- [x] Release inference codes and Chat-MedGen model ***pre-trained weights***. 
+- [x] Release ***inference codes*** and Chat-MedGen model ***pre-trained weights***. 
 - [x] Release ***MedVision-MT*** benchmark.
 - [x] Release more ***visual results and video demo***.
 
