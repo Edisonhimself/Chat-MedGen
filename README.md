@@ -2,6 +2,8 @@
 
   <h2 align="center">
   Chat-MedGen: Omni-Adaptation of Multi-Modal Large Language Models for Diverse Biomedical Tasks
+  
+  Knowledge-Based System 2025
 
   </h2>
   <p align="center">
